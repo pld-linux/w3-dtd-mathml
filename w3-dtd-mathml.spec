@@ -7,6 +7,7 @@ License:	Free
 Group:		Applications/Publishing/XML
 URL:		http://www.w3.org/Math
 Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	ad414900eda811fa96493802640f5648
 BuildRequires:	rpm-build >= 4.0.2-94
 BuildRequires:	/usr/bin/xmlcatalog
 PreReq:		libxml2
