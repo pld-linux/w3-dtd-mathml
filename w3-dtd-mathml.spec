@@ -1,5 +1,5 @@
-Summary:	MathML 2.0 DTD
-Summary(pl):	MathML 2.0 DTD
+Summary:	MathML 2.0 DTD (Document Type Definition)
+Summary(pl):	DTD (definicja typu dokumentu) MathML 2.0
 Name:		w3-dtd-mathml
 Version:	2.0
 Release:	1
@@ -19,7 +19,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define	xmlcat_file	%{dtd_path}/catalog.xml
 
 %description
-MathML 2.0 DTD
+MathML 2.0 DTD (Document Type Definition).
+
+%description -l pl
+DTD (Document Type Definition, czyli definicja typu dokumentu) dla
+MathML 2.0.
 
 %prep
 %setup -q
