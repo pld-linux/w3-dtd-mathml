@@ -47,14 +47,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 if ! grep -q %{xmlcat_file} /etc/xml/catalog ; then
-    %xmlcat_add %{xmlcat_file}
-
+	%xmlcat_add %{xmlcat_file}
 fi
 
 %preun
 if [ "$1" = "0" ] ; then
-    %xmlcat_del %{xmlcat_file}
-
+		%xmlcat_del %{xmlcat_file}
 fi
 
 %files
