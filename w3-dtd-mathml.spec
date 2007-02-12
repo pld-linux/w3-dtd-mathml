@@ -1,5 +1,5 @@
 Summary:	MathML 2.0 DTD (Document Type Definition)
-Summary(pl):	DTD (definicja typu dokumentu) MathML 2.0
+Summary(pl.UTF-8):   DTD (definicja typu dokumentu) MathML 2.0
 Name:		w3-dtd-mathml
 Version:	2.0
 Release:	1
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MathML 2.0 DTD (Document Type Definition).
 
-%description -l pl
+%description -l pl.UTF-8
 DTD (Document Type Definition, czyli definicja typu dokumentu) dla
 MathML 2.0.
 
